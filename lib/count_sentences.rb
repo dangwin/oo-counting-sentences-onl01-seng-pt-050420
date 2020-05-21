@@ -19,6 +19,12 @@ end
   end
 
   def exclamation?
+    
+      if self.end_with?("!")
+      true 
+    else 
+      false 
+  end 
 
   end
 
